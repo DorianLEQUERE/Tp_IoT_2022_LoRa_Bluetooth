@@ -63,3 +63,7 @@ Groupe 1 (notre groupe)
 Résultat : Nous avons pu publier un message MQTT et recevoir en réponse un message LoRa.  
 
 En travaillant avec LoRa, nous avons découvert qu’il permet d’envoyer des messages sur de longues distances avec très peu d’énergie. Contrairement à MQTT qui passe par Internet, LoRa fonctionne avec des ondes radio, ce qui le rend pratique pour des capteurs éloignés. Nous avons appris à configurer ses paramètres et à recevoir des messages en filtrant ceux qui nous intéressaient. Cela nous a permis de voir comment LoRa et MQTT peuvent être combinés pour relayer des données efficacement. 
+
+## 4. I2C 
+
+I2C est un protocole de communication qui permet à plusieurs composants électroniques d’échanger des informations en utilisant seulement deux fils : un pour les données (SDA) et un pour l’horloge (SCL). Un appareil maître, comme un microcontrôleur, envoie des instructions à des appareils esclaves, qui possèdent chacun une adresse unique. L’horloge permet de synchroniser l’échange des données. Ce protocole est utilisé pour connecter facilement plusieurs composants, comme des capteurs ou des écrans, tout en minimisant le nombre de fils nécessaires.
